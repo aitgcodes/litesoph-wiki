@@ -26,10 +26,11 @@ Contents
    Current_Feature
    Upcoming_Feature
    Simulations
-   Tutorials/Tutorials
-   FAQs/FAQ   
+   Tutorials/Tutorials      
+   user_documentation/user_documentation_index
    developer_documentation/developer_documentation_index
-   Issues
+   FAQs/FAQ
+   Bugs
    
    
 
