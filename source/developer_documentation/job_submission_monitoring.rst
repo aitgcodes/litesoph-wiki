@@ -2,9 +2,6 @@
 LITESOPH Job Submission, Monitoring and File Management
 ========================================================
 
-Overview
-========
-
 LITESOPH Job Submission, Monitoring and File Management is a set of modules capable of handling tasks like submission of job to remote machine, tracking the status running job and transferring of files from remote to local machine.   
 
 Features
