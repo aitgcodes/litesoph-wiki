@@ -5,7 +5,26 @@ Features implementation (Theory)
 Working algorithms in LITESOPH
 ------------------------------
 
-#. **Simulations of Photo-Induced Properties using LITESOPH**
+.. toctree::
+
+    algorithm/algorithm.rst
+
+Independent Tasks Based
+-----------------------
+
+.. toctree::
+
+    independent_tasks/independent_tasks.rst
+
+Workflows Based
+---------------
+
+.. toctree::
+
+    workflow/workflow.rst
+
+    
+.. #. **Simulations of Photo-Induced Properties using LITESOPH**
 
     - Spectrum
 
@@ -19,36 +38,36 @@ Working algorithms in LITESOPH
 
     - Pump-probe
 
-#. **Trajectory Surface Hopping (upcoming)**
+.. #. **Trajectory Surface Hopping (upcoming)**
 
-#. **Effects of spin-orbit interactions (upcoming)**
+.. #. **Effects of spin-orbit interactions (upcoming)**
 
-#. **Implementation of QM/MM method (upcoming)**
+.. #. **Implementation oftestin QM/MM method (upcoming)**
 
-#. **Normal Mode analysis (upcoming)**
+.. #. **Normal Mode analysis (upcoming)**
 
-Independent Tasks Based
------------------------
+.. Independent Tasks Based
+.. -----------------------
 
-#. **GS**
+.. #. **GS**
 
-#. **Laser design tools**
+.. #. **Laser design tools**
 
-#. **TD**
+.. #. **TD**
 
-#. **Post processing and visualization**
+.. #. **Post processing and visualization**
 
-Workflows Based
----------------
+.. Workflows Based
+.. ---------------
 
-#. **Spectrum**
+.. #. **Spectrum**
 
-#. **Averaged spectrum**
+.. #. **Averaged spectrum**
 
-#. **KSD**
+.. #. **KSD**
 
-#. **MO population**
+.. #. **MO population**
 
-#. **Laser Masking**
+.. #. **Laser Masking**
 
-#. **Pump-probe**
+.. #. **Pump-probe**

@@ -1,0 +1,2 @@
+Averaged spectrum
+-----------------
