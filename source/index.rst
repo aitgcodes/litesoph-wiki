@@ -27,7 +27,7 @@ Contents
    .. Simulations
    .. Tutorials/Tutorials      
    user_documentation/user_documentation_index
-   developer_documentation/developer_documentation_index
+   devel/devel
    FAQs/FAQ
    Bugs
    

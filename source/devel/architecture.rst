@@ -1,5 +1,8 @@
-LITESOPH Architecture
-=====================
+.. _code overview:
+
+=================
+Code Architecture
+=================
 The LITESOPH Architecture has the following model.
 
 .. image:: ././Image/litesoph_layers_30_11_22.png
