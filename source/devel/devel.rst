@@ -32,4 +32,6 @@ Code overview
     
     architecture   
     job_submission_monitoring
+    gui_view    
+    gui_control
 
