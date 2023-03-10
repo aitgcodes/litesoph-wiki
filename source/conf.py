@@ -17,6 +17,12 @@ import sys
 assert sys.version_info >= (3, 6)
 sys.path.append('.')
 
+from pprint import pformat
+def object_description(object) -> str:
+    return pformat(object, indent=4)
+
+from sphinx.util import inspect
+inspect.object_description = object_description
 
 # -- Project information -----------------------------------------------------
 master_doc = 'index'

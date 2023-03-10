@@ -11,17 +11,17 @@ to code base. see how to add a task :ref:`Adding new task`.
 The step by step procedure to add a new workflow to the litesoph code 
 base is described below.
 
-1. Add the new workflow identifer in the :class:`litesoph.common.workflow_data.WorkflowTypes`
+1. Add the new workflow identifer in the :class:`litesoph.common.workflows_data.WorkflowTypes`
 
-2. Define the new workflow in the :class:`litesoph.common.workflow_data.predefined_workflow`
+2. Define the new workflow in the :class:`litesoph.common.workflows_data.predefined_workflow`
 
 
-.. autoclass:: litesoph.common.workflow_data.WorkflowTypes
+.. autoclass:: litesoph.common.workflows_data.WorkflowTypes
    :members:
    :private-members:
    :member-order: bysource
 
-.. autoclass:: litesoph.common.workflow_data.predefined_workflow
+.. autoclass:: litesoph.common.workflows_data.predefined_workflow
    :members:
    :private-members:
    :member-order: bysource

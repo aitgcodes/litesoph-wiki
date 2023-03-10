@@ -14,7 +14,7 @@ Setting up your local repository
 
 
 Setting up your development environment
-===========================
+=======================================
 
 You can make virtual environment using either ``conda`` or ``python-venv``.
 The steps to create environment by these methods are listed below.

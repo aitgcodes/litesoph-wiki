@@ -14,7 +14,9 @@ litesoph code base is described below.
 
 1. Add engine to the :class:`litesoph.engines.engine_classname` dictionary. The key
 should be the name of the engine and the value should be the class name used to defines 
-the engine manager. For Example, if the engine name is: ``newengine``::
+the engine manager. For Example, if the engine name is: ``newengine``.
+
+::
 
     {'newengine': 'NewEngine'}
 
