@@ -1,4 +1,4 @@
-.. _laser_design:
+.. _laser-design:
 
 Laser design tools
 ==================

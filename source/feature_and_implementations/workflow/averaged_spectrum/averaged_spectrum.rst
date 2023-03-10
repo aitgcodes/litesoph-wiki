@@ -1,10 +1,14 @@
-.. _avg_spectrum:
+.. _avg-spectrum:
 
 Averaged Spectrum
-=====================
+=================
 
-* :ref:`GS`
+The Workflow for the calculations of simulating average spectrum is as follows:
 
-* :ref:`rt-tddft`
+**1.**  Start the workflow with ground state calculation. See :ref:`GS`.
 
-* :ref:`compute spectrum`
+**2.** After the ground state calculation is done, proceed to RT-TDDFT calculation. See :ref:`rt-tddft`.
+
+**3.** After RT-TDDFT calculation is done, proceed to compute spectrum. See :ref:`compute-spectrum`.
+
+**4.** After the MO population is computed, for post processing and visualization, see :ref:`pp-visualization`.
