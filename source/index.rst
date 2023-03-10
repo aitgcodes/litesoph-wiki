@@ -23,9 +23,7 @@ Contents
 
 .. toctree::
    about_LITESOPH
-   feature_and_implementations/features_and_implementation
-   .. Simulations
-   .. Tutorials/Tutorials      
+   feature_and_implementations/features_and_implementation     
    user_documentation/user_documentation_index
    devel/devel
    FAQs/FAQ
