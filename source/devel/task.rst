@@ -4,26 +4,29 @@
 Adding new task
 ===============
 
-To add a new task to the litesoph choose a engine which is already
-interfaced the code base, to add new engine :ref:`Adding new engine`.
+To add a new task to the litesoph, choose an engine that is already
+interfaced with the code base, else see :ref:`Adding new engine`.
 
+All the tasks in litesoph will be classes that inherit
+from the class :class:`litesoph.common.task.Task`. 
+The task class will be responsible for generating input scripts, job scripts, 
+running the job, and storing the output generated for the task. 
 
 The step by step procedure to add a new task to the litesoph code 
 base is described below.
 
 
-1. Add the new task identifer in the :class:`litesoph.common.task_data.TaskTypes`.
+1. Add the new task identifier in the :class:`litesoph.common.task_data.TaskTypes`.
 
 2. Create your task class by subclassing the :class:`litesoph.common.task.Task`
 
 3. Implement the abstract methods of the :class:`litesoph.common.task.Task`
 
-4. update the egine manger's function :func:`litesoph.common.EngineManager.get_task`. :ref:`Adding new engine`
-
+4. update the egine manger to account for the new added task. see :ref:`Adding new engine`
 
 
 .. seealso::
-    * The code for our NWChem interface: :git:`litesoph.engines.gpaw.gpaw_task.py`
+    * The code for our GPAW tasks: :git:`litesoph.engines.gpaw.gpaw_task.py`
 
 
 Description of base-classes
