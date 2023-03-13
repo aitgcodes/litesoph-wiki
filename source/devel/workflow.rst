@@ -11,10 +11,10 @@ in the code base. see :ref:`Adding new task`.
 All the workflows in the litesoph are defined in the dictionary :class:`litesoph.common.workflows_data.predefined_workflow`.
 
 
-The step by step procedure to add a new workflow to the litesoph code 
+The step by step procedure to add a new workflow type to the litesoph code 
 base is described below.
 
-1.  Add the new workflow type identifier in the class :class:`~litesoph.common.workflows_data.WorkflowTypes`
+1.  Add the new workflow type identifier in the class :class:`~litesoph.common.workflows_data.WorkflowTypes`.
 
     Every workflow types has a unique identifier that is used identify them.
     This identifier is defined in the class
@@ -29,14 +29,14 @@ base is described below.
 
     This string will be used to identifier the new workflow type
 
-2. Define the new workflow in the dictionary :class:`litesoph.common.workflows_data.predefined_workflow`
+2. Define the new workflow in the dictionary :class:`litesoph.common.workflows_data.predefined_workflow`.
 
     All the workflow types are defined in the dictionary :class:`~litesoph.common.workflows_data.predefined_workflow`
 
-    The workflow is defined as a order chain of tasks that needs to be completed
-    to obtain a desired quantity like Averaged spectrum of a molecule. 
-    In litesoph worklow is modeled as a ordered chain of blocks, where each block
-    is group of same task types but with different input parameters.
+    The workflow is defined as an ordered chain of tasks that needs to be completed
+    to obtain a desired quantity, like Averaged spectrum of a molecule. 
+    In litesoph, workflow is modeled as an ordered chain of blocks, where each block
+    is group of the same task type but with different input parameters.
 
     For Example, Averaged spectrum of a molecule workflow can be modeled as:
 

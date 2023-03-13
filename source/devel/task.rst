@@ -7,10 +7,10 @@ Adding new task
 To add a new task to the litesoph, choose an engine that is already
 interfaced with the code base, else see :ref:`Adding new engine`.
 
-All the tasks in litesoph will be classes that inherit
-from the class :class:`litesoph.common.task.Task`. 
-The task class will be responsible for generating input scripts, job scripts, 
-running the job, and storing the output generated for the task. 
+All the tasks in litesoph are classes that inherits
+from the base class :class:`litesoph.common.task.Task`. 
+The task class is responsible for generating input scripts, job scripts, 
+running the job, and storing the output generated for that task. 
 
 The step by step procedure to add a new task to the litesoph code 
 base is described below.

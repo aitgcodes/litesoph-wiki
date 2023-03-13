@@ -8,7 +8,7 @@ Code Architecture
 This document describes the overall code architecture.
 
 
-Full Picture of Class hierarchy::
+Full Picture of the litesoph backend::
 
                        +---------+             
                        |LSManager|
