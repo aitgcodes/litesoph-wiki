@@ -44,7 +44,7 @@ Available two options are:
 New Workflow
 -------------
 
-.. image::  ./create_new_workflow.png
+.. image:: ./create_new_workflow.png
    :width: 800
    :alt: create_new_workflow_page
 
@@ -53,14 +53,14 @@ Creates a new workflow from scratch.
 Clone from an existing Workflow
 --------------------------------
 
-.. image::  ./cloning_workflow.png
+.. image:: ./cloning_workflow.png
    :width: 800
    :alt: clone_workflow_page
 
-    1.Creates a new workflow from existing workflows.
-    2.Select the workflow from available options.
-    3.Select the branch point: the tasks upto this point are copied from the existing workflows.
-    4.Select the workflow type to proceed with.
+1.Creates a new workflow from existing workflows.
+2.Select the workflow from available options.
+3.Select the branch point: the tasks upto this point are copied from the existing workflows.
+4.Select the workflow type to proceed with.
 
 LITESOPH calculation is initiated with creating a workflow under current project. This is a chain of tasks defined by 
     1. Workflow Mode 
