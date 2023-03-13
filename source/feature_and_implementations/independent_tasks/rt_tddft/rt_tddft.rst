@@ -49,7 +49,7 @@ For the parameters of Gaussian pulse, see below.
 
    **1. Time Origin in as:** Laser delay time from initialization of simulation in atto-seconds.
 
-   **2. Relative strength at time origin, 10e-:** Electric field strength at the starting time of the laser.
+   **2. Relative strength at time origin, 10e-:** Relative Electric field strength at the starting time of the laser.
 
    **3. Peak Strength in au:** Intensity of laser in au.
 
@@ -79,13 +79,27 @@ Masking
 Select the added lasers for which masking is to be applied. Under masking, check the **Masked Electric Field**. Use the following input parameters
 for masking.
 
-**1. Mask Type:** Types of mask used as boundary to separated the masked and illuminated regions. Available options are **plane** and **sphere**.
+**1. Mask Type:** 
+   Types of mask used as boundary to separated the masked and illuminated regions. Available options are :**plane** and **sphere**.
+   
+   **Plane**: refers to the use of a dividing plane to define the mask. 
+   
+   **Sphere**: refers to the use of a spherical region to illuminate
 
 **2. Boundary Type:** Smearing type at the mask boundary. Available options are **abrupt** and **smooth**.
 
-**3. Axis:** Direction along which the boundary is placed.
+**Mask Specific Parameters**
 
-**4. Origin:** Cut-off distance in fractional units beyond which the part of the system will be masked.
+**3. Axis:** 
+Applicable for Mask Type: **Plane**. Direction along which the boundary is placed.
+
+**4. Origin:** 
+      * Applicable for Mask Type: **Plane**. The location of the dividing plane (in cell parameter units). Only for coordinate < origin, the region is illuminated.
+      * Applicable for Mask Type: **Sphere**. Coordinates (in cell parameter units) of the centre of the Sphere used
+
+**5. Radius:** Applicable for Mask Type: Sphere. Radius (in Angstroms) of the spherical region to be illuminated
+
+.. **4. Origin:** Cut-off distance in fractional units beyond which the part of the system will be masked.
 
 **Save** the masking details after including the above parameters.
 
