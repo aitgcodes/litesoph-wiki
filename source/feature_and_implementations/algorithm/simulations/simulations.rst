@@ -40,13 +40,6 @@ because this method is more rigorous and applicable to all kinds of systems.
 ##########################
 
 
-Calculations of Absorption Spectrum
-#########################################
-The :ref:`absorption spectrum` is calculated based on these three :ref:`engines`. Here are the results of some molecular systems using LITESOPH-GUI.
-
-   
-* :doc:`./GPAW/GPAW_Calculation` 
-
 Kohn-Sham Decomposition (KSD)
 -----------------------------------
 Time-dependent density functional theory (TDDFT_) built on top of Kohn-Sham (KS) density functional theory (DFT) is a
