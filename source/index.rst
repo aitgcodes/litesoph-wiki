@@ -13,10 +13,6 @@ It is a GUI-based software to perform the ground state DFT and TDDFT calculation
 using three engines : `GPAW <https://wiki.fysik.dtu.dk/gpaw/index.html>`_, `NWChem <https://nwchemgit.github.io/>`_ and 
 `Octopus <https://octopus-code.org/wiki/Main_Page>`_ .
 
-.. image:: ./Image/Litesoph_logo.png
-   :width: 800
-   :alt: Litesoph_logo
-
 
 Contents
 --------
