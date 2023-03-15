@@ -1,9 +1,6 @@
-====================================
-Features implementation (Theory)
-====================================
-
-Working algorithms in LITESOPH
-------------------------------
+========
+Features
+========
 
 .. toctree::
 
