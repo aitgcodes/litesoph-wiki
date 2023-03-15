@@ -3,6 +3,10 @@
 Averaged Spectrum
 =================
 
+Compatible Engines
+-------------------
+GPAW, NWChem, Octopus
+
 The Workflow for the calculations of simulating average spectrum is as follows:
 
 **1.**  Start the workflow with ground state calculation. See :ref:`GS`.

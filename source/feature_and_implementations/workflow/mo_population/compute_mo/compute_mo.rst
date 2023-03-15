@@ -3,6 +3,10 @@
 Compute MO Population
 ======================
 
+Compatible Engines
+-------------------
+GPAW, NWChem, Octopus
+
 Plots the Population Tracking for the chosen molecular system.
 
 .. image:: ./Compute-MO.png
