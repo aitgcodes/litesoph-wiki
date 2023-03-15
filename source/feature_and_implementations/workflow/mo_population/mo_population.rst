@@ -4,6 +4,10 @@
 Molecular Orbital (MO) Population
 =================================
 
+Compatible Engines
+-------------------
+GPAW, NWChem, Octopus
+
 .. image:: ./mo_landing_page.png
    :width: 800
    :alt: MO_Population

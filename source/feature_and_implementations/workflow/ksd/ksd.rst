@@ -3,6 +3,10 @@
 KSD
 ===
 
+Compatible Engines
+-------------------
+GPAW, Octopus
+
 .. image:: ./KSD.png
    :width: 800
    :alt: Spectrum

@@ -21,9 +21,9 @@ the beginning.
 
 **3. Number of Steps:** Total number of steps to be run for the dynamics. Total time is (Number of Steps*time steps)
 
-**4. Frequency of data collection:** Number of times the data will be printed. Vale `1` indicates that data will be collected at each time steps. 
+**4. Frequency of data collection:** Number of times the data will be printed. Default alue `1` indicates that data will be collected at each time steps. 
 
-**5. Polarisation Direction:** Polarization of the applied external electric field.
+**5. Polarisation Direction:** Polarization direction of the applied external electric field.
 
 .. _laser-design-tools:
 
@@ -39,25 +39,25 @@ Laser Design tools
 Laser design
 ------------
 
-**1. Type of Laser:** Available options are Gaussian pulse and Delta pulse. 
+**1. Type of Laser:** *(default:Gaussian)* Available options are Gaussian pulse and Delta pulse. 
 
-**2. Laser Tag:** Applicable only in the case of Pump-Probe analysis. Choose either pump or probe for laser design.
+**2. Laser Tag:** *(default:Pump)* Applicable only in the case of Pump-Probe analysis. Choose either pump or probe for laser design.
 
 For the parameters of Delta kick, refer to :ref:`delta-kick`. 
 
 For the parameters of Gaussian pulse, see below.
 
-   **1. Time Origin in as:** Laser delay time from initialization of simulation in atto-seconds.
+   **1. Time Origin (as):** *(default:0)* Laser delay time from initialization of simulation in atto-seconds.
 
-   **2. Relative strength at time origin, 10e-:** Relative Electric field strength at the starting time of the laser.
+   **2. Relative strength at time origin, 10e-:** *(default:6)* Negative log of relative electric field strength at the starting time of the laser.
 
-   **3. Peak Strength in au:** Intensity of laser in au.
+   **3. Peak Strength (au):** *(default:10e-5)* Intensity of laser in au.
 
-   **4. Full Width Half Max (FWHM in eV):** FWHM of the Gaussian pulse.
+   **4. Full Width Half Max (eV):** *(default:1)* FWHM of the Gaussian pulse.
 
-   **5. Frequency (in eV):** Frequency of the Gaussian pulse.
+   **5. Frequency (eV):** *(default:1)* Frequency of the Gaussian pulse.
 
-   **6. Polarization Direction:** Direction of the applied laser.
+   **6. Polarization Direction:** *(default:X)* Polarization Direction of the applied electric field.
 
 **Add** and **Save** the lasers and view the laser using **Plot**.
 
@@ -79,25 +79,30 @@ Masking
 Select the added lasers for which masking is to be applied. Under masking, check the **Masked Electric Field**. Use the following input parameters
 for masking.
 
-**1. Mask Type:** 
-   Types of mask used as boundary to separated the masked and illuminated regions. Available options are :**plane** and **sphere**.
+**1. Mask Type:** *(default:Plane)* Types of mask defined as boundary to separate the masked and illuminated regions. Available options are :**Plane** and **Sphere**.
    
-   **Plane**: refers to the use of a dividing plane to define the mask. 
+   * **Plane**: refers to the use of a dividing plane to define the mask
    
-   **Sphere**: refers to the use of a spherical region to illuminate
+   * **Sphere**: refers to the use of a spherical region to illuminate
 
-**2. Boundary Type:** Smearing type at the mask boundary. Available options are **abrupt** and **smooth**.
+**2. Boundary Type:** *(default:Abrupt)* Smearing type at the mask boundary. Available options are **Abrupt** and **Smooth**.
+   
+   * **Abrupt**: refers to an abrupt division of cell i.e. using a Heaviside function
 
+   * **Smooth**: refers to the boundary region being defined through an error function
+**3. RSig**: *(default:0.1)* Applicable for Boundary Type: **Smooth**. Refers to sigma (in Angstroms) of the error function to be used
+
+   
 **Mask Specific Parameters**
 
-**3. Axis:** 
+**4. Axis:** *(default:X)*
 Applicable for Mask Type: **Plane**. Direction along which the boundary is placed.
 
-**4. Origin:** 
-      * Applicable for Mask Type: **Plane**. The location of the dividing plane (in cell parameter units). Only for coordinate < origin, the region is illuminated.
-      * Applicable for Mask Type: **Sphere**. Coordinates (in cell parameter units) of the centre of the Sphere used
+**5. Origin:** 
+      * *(default:0.5)* Applicable for Mask Type: **Plane**. The location of the dividing plane (in cell parameter units). Only for coordinate < origin, the region is illuminated.
+      * *(default:(0.5, 0.5, 0.5))* Applicable for Mask Type: **Sphere**. Coordinates (in cell parameter units) of the centre of the Sphere used
 
-**5. Radius:** Applicable for Mask Type: Sphere. Radius (in Angstroms) of the spherical region to be illuminated
+**6. Radius:** *(default:0.5)* Applicable for Mask Type: Sphere. Radius (in Angstroms) of the spherical region to be illuminated
 
 .. **4. Origin:** Cut-off distance in fractional units beyond which the part of the system will be masked.
 
