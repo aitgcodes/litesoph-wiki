@@ -16,8 +16,11 @@ Available options are **Total**, **Region 1(Masked)** and  **Region 1(Complement
 
 **4. Calculation of Energy Transfer Coupling Constant** computes the coupling constnat for the energy transfer.
 
-.. image:: ./dipole_moment_plot.png
+.. .. image:: ./dipole_moment_plot.png
    :width: 800
    :alt: dipole_moment_plot
 
+.. image:: ./masking_dm.png
+   :width: 800
+   :alt: dipole_moment_plot
 
