@@ -15,9 +15,9 @@ Delta kick Inputs
    :alt: delta_kick
 
 **1. Laser Strength in a.u (E0):** Strength of the delta kick electric field to be applied. This excites all the electronic degrees of freedom at 
-the begining.
+the beginning.
 
-**2. Time steps (in attosecond):** Time steps for the dynamics of the Kohn-Sham euations.
+**2. Time steps (in attosecond):** Time steps for the dynamics of the Kohn-Sham equations.
 
 **3. Number of Steps:** Total number of steps to be run for the dynamics. Total time is (Number of Steps*time steps)
 
@@ -65,7 +65,7 @@ For the parameters of Gaussian pulse, see below.
    :width: 800
    :alt: laser_design_page
 
-**Finalise** the laser which will be used for further simualtions.
+**Finalise** the laser which will be used for further simulations.
 
 .. _masking:
 

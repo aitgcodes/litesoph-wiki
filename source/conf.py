@@ -28,6 +28,7 @@ inspect.object_description = object_description
 master_doc = 'index'
 project = 'LITESOPH'
 copyright = f'{datetime.date.today().year}, LITESOPH members and team'
+#author = ''
 
 # The full version, including alpha/beta/rc tags
 release = '0.1'
