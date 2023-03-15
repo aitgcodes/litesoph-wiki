@@ -22,7 +22,7 @@ Features implementation (Theory)
     
 .. #. **Simulations of Photo-Induced Properties using LITESOPH**
 
-    - Spectrum
+    - Polarized Spectrum
 
     - Averaged spectrum
 
