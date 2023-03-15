@@ -1,3 +1,7 @@
+=================
+**Workflows Based**
+=================
+
 .. toctree::
 
     spectrum/spectrum.rst
