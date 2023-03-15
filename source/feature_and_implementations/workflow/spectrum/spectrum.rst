@@ -1,7 +1,7 @@
 .. _spectrum:
 
-Spectrum
-=========
+Polarized Spectrum
+==================
 
 .. image:: ./Spec.png
    :width: 800

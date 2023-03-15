@@ -1,5 +1,3 @@
-
-
 Simulations of Photo-Induced Properties using LITESOPH
 ========================================================
 
@@ -9,9 +7,9 @@ In the excited state, molecules can undergo a reaction on the same PES or they c
 deactivate to a ground electronic state via radiative channels like `fluorescence <https://en.wikipedia.org/wiki/Fluorescence>`_ and 
 `phosphorescence <https://en.wikipedia.org/wiki/Phosphorescence>`_ or nonradiative channels like internal conversion ( IC_ ), and intersystem
 crossing (`ISC <https://en.wikipedia.org/wiki/Intersystem_crossing>`_). To understand the photophysics and photochemistry of a system,
-we have to first perform an :ref:`absorption spectrum` to get an idea about the optically accessible bright
+we have to first compute an :ref:`absorption spectrum` to get an idea about the optically accessible bright
 and inaccessible dark states respectively. Then the state of interest can be targeted to understand the
-photo dynamics in the excited state.
+photodynamics in the excited state.
  
 .. _IC : https://en.wikipedia.org/wiki/Internal_conversion#:~:text=Internal%20conversion%20is%20a%20non,(ejected)%20from%20the%20atom
 
@@ -24,12 +22,9 @@ The absorption spectrum provides information about the energies of the electroni
 their transition probabilities. The absorption spectrum can be calculated using different theories like
 TDDFT_, CASPT2_, CCSD_, and ADC_ (2) [1]_. Among all methods, TDDFT_ offers a good compromise
 between accuracy and computational cost for a large system  [2]_ [3]_ [4]_ [5]_ [6]_ . Thus TDDFT_ is widely used to compute
-the absorption spectrum. Both linear response (LR)-TDDFT and real time (RT)-TDDFT can be used
-to calculate spectrum in frequency and time domain respectively. In our tools, we have only
-incorporated the RT-TDDFT_ approach to compute the absorption spectrum as well as other properties
-because this method is more rigorous and applicable to all kinds of systems.
+the absorption spectrum. Both linear response (LR)-TDDFT and real-time (RT)-TDDFT can be used
+to calculate spectrum in frequency and time domain respectively. LITESOPH uses RT-TDDFT_ approach to compute photoabsorption given its relatively low computational expense for large systems as well as the capability to be given beyond linear response.
 
-##########################
 
 .. _TDDFT : https://en.wikipedia.org/wiki/Time-dependent_density_functional_theory#:~:text=Time%2Ddependent%20density%2Dfunctional%20theory,as%20electric%20or%20magnetic%20fields.
 .. _CASPT2 : https://pubs.acs.org/doi/10.1021/acs.jctc.2c00368
@@ -37,18 +32,16 @@ because this method is more rigorous and applicable to all kinds of systems.
 .. _ADC : https://adc-connect.org/v0.15.13/theory.html
 .. _CCSD : https://en.wikipedia.org/wiki/Coupled_cluster#:~:text=For%20example%2C%20the%20CCSD(T,many%2Dbody%20perturbation%20theory%20arguments.
 
-##########################
-
 
 Kohn-Sham Decomposition (KSD)
 -----------------------------------
 Time-dependent density functional theory (TDDFT_) built on top of Kohn-Sham (KS) density functional theory (DFT) is a
 powerful tool in computational physics and chemistry for accessing the light-matter interaction. Starting from the seminal work
-on jellium nanoparticles, TDDFT_ has become an important tool for modelling plasmonic response from a quantum mechanical
-perspective and proven to be useful for calculating the response of individual nanoparticles and their compounds as well as other
+on jellium nanoparticles, TDDFT_ has become an important tool for modeling plasmonic response from a quantum mechanical
+perspective and has proven to be useful for calculating the response of individual nanoparticles and their compounds as well as other
 plasmonic materials. Additionally, a number of models and concepts have been developed for quantifying and understanding
 plasmonic character within the TDDFT approach. TDDFT in the linear-response regime is often formulated in frequency space
-in terms of the Casida matrix expressed in the Kohn-Sham electron-hole space.The Casida approach directly enables a decomposition of the electronic excitations into the underlying KS electron-hole transitions, which easily provides quantum-mechanical
+in terms of the Casida matrix expressed in the Kohn-Sham electron-hole space. The Casida approach directly enables a decomposition of the electronic excitations into the underlying KS electron-hole transitions, which easily provides quantum-mechanical
 understanding of the plasmonic response. By contrast, real-time TDDFT_ (RT-TDDFT) (an alternative but computationally efficient approach with favorable scaling with respect to system size and is also applicable to the nonlinear regime) results are often
 limited to absorption spectra or the analysis of the induced densities or fields. However, recently, Rossi et al. have developed KS
 decomposition ( KSD_ ) tool based on the RT-TDDFT code that is available in the free GPAW code. The underlying RT-TDDFT
@@ -134,15 +127,15 @@ energy calculated using LCAO TDDFT_ approach in GPAW code is shown in :ref:`Fig.
 
 .. _au55_tcm:
 
-.. figure:: ../../../_static/image_laser/Au55_tcm_3.02.png
+.. figure:: ../../../_static/image_laser/ag55-tcm_4.png
     :width: 500px
     :align: center
     :height: 400px
     :alt: alternate text
     :figclass: align-center
 
-**Fig.1: Transition contribution map for the photoabsorption decomposition of Au55 metallic nanoparticle 
-at 3.02 eV resonance energy calculated using LCAO TDDFT approach in GPAW code. The KS eigenvalues are 
+**Fig.1: Transition contribution map for the photoabsorption decomposition of Ag55 metallic nanoparticle 
+at 4.0 eV resonance energy calculated using LCAO TDDFT approach in GPAW code. The KS eigenvalues are 
 given with respect to the Fermi level. The constant transition energy line** `\varepsilon_u - \varepsilon_o = \omega` 
 **is the analysis energy (solid line). Red and blue colors indicate positive and negative values of the 
 photoabsorption, respectively. The density of states (DOS) are also shown.**
@@ -246,12 +239,12 @@ The center of the pulse is obtained as
     \end{equation}
 
 
-LASER Masking  **to study energy transfer using RT-TDDFT approach**
-#############
-Energy transfer is one of the most fundamental processes on the molecular scale, governing light-harvesting in biological
+**LASER Masking approach to study energy transfer using RT-TDDFT approach**
+###############################################################################
+Energy transfer is one of the most fundamental processes on the molecular scale, governing light harvesting in biological
 systems and energy conversion in electronic devices such as organic solar cells or light-emitting diodes. The design principles
 of natural light-harvesting complexes have found considerable interest, as scientists believe that the principles realized in nature
-can be mimicked in the design of artificial organic devices.One standard method to interpret experimental data of excitation energy transfer between a donor (D) and an acceptor (A)
+can be mimicked in the design of artificial organic devices. One standard method to interpret experimental data of excitation energy transfer between a donor (D) and an acceptor (A)
 molecule separated by the distance R is the so-called Forster resonance energy transfer ( FRET_ ) theory. `Forster` theory describes ¨
 the nonradiative energy transfer mediated by a (quantum-mechanical) coupling between the transition dipoles of the donor and
 acceptor molecules. One of the central assumptions in FRET is that the coupling between D and A

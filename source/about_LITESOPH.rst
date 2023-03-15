@@ -1,29 +1,24 @@
 ============================
- About LITESOPH
+About LITESOPH
 ============================
-The LITESOPH project is aimed at developing a comprehensive toolkit to launch, monitor, manage and analyse 
+The LITESOPH project is aimed at developing a comprehensive toolkit to launch, monitor, manage and analyze 
 large-scale simulations of photo-induced phenomena in a high-performance computing (HPC) environment. 
 It is designed to serve the needs of computational researchers interested in solar energy conversion 
-applications (photovoltaics, water-splitting catalysts, solar fuels, etc.), opto-electronic materials, 
+applications (photovoltaics, water-splitting catalysts, solar fuels, etc.), optoelectronic materials, 
 photochemistry and photobiology. The toolkit consists of several Python-based layers driven by popular 
 and open-source TDDFT codes like OCTOPUS, GPAW and NWChem.
 
-The project is currently funded by `MeitY <https://www.meity.gov.in/>`_ through the National Supercomputing Mission's "Applications for 
-Materials and Computational Chemistry" initiative.
+The project is currently funded by `MeitY <https://www.meity.gov.in/>`_ through the National Supercomputing Mission's "Applications for Materials and Computational Chemistry" initiative.
 
 .. _engines:
 
 Engines Interfaced with LITESOPH
 ===================================
-There are three engines implimented in :ref:`LITESOPH`. The details of these engines with their Installation Instruction are given below:
-
+There are currently three engines implemented in :ref:`LITESOPH`. The details of these engines with their Installation Instruction are given below:
 
 .. _GPAW:
 
-`GPAW <https://wiki.fysik.dtu.dk/gpaw/index.html>`_    (version 20.1.0 or later)
-      is a density-functional theory (DFT) `Python <https://www.python.org/>`_ code based on the projector-augmented wave 
-(`PAW <https://wiki.fysik.dtu.dk/gpaw/documentation/introduction_to_paw.html#introduction-to-paw>`_) method 
-and the atomic simulation environment (`ASE <https://wiki.fysik.dtu.dk/ase/>`_).The wave functions can be described with:
+`GPAW <https://wiki.fysik.dtu.dk/gpaw/index.html>`_    (version 20.1.0 or later) is a density-functional theory (DFT) `python <https://www.python.org/>`_ code based on the projector-augmented wave (`PAW <https://wiki.fysik.dtu.dk/gpaw/documentation/introduction_to_paw.html#introduction-to-paw>`_) method and the atomic simulation environment (`ASE <https://wiki.fysik.dtu.dk/ase/>`_). The wave functions can be described with:
 
 * Plane-waves (`pw <https://wiki.fysik.dtu.dk/gpaw/documentation/basic.html#manual-mode>`_)
 
@@ -32,81 +27,84 @@ and the atomic simulation environment (`ASE <https://wiki.fysik.dtu.dk/ase/>`_).
 * Atom-centered basis-functions (`lcao <https://wiki.fysik.dtu.dk/gpaw/documentation/lcao/lcao.html#lcao>`_)
 .. note::
 
-Before installing this engine, go to `GPAW <https://wiki.fysik.dtu.dk/gpaw/index.html>`_  and its `Installation Instruction <https://wiki.fysik.dtu.dk/gpaw/install.html>`_  for details.
-
+Before installing this engine, see `GPAW <https://wiki.fysik.dtu.dk/gpaw/index.html>`_  and its `installation instruction <https://wiki.fysik.dtu.dk/gpaw/install.html>`_  for details.
 
 .. _Octopus:
 
-`Octopus <https://octopus-code.org/wiki/Main_Page>`_   (version 11.4)
-        is a scientific program aimed at the ab initio virtual experimentation on a hopefully 
-ever-increasing range of system types. Electrons are described quantum-mechanically within density-functional theory (DFT), in its time-dependent form (TDDFT) when doing simulations in time. Nuclei are described classically as point particles. Electron-nucleus interaction is described within the pseudopotential approximation.
+`Octopus <https://octopus-code.org/wiki/Main_Page>`_ (version 11.4) is a scientific program aimed at the ab initio virtual experimentation on a hopefully ever-increasing range of system types. Electrons are described quantum-mechanically within density-functional theory (DFT), in its time-dependent form (TDDFT) when doing simulations in time. Nuclei are described classically as point particles. Electron-nucleus interaction is described within the pseudopotential approximation.
 
-For optimal execution performance Octopus is parallelized using MPI and OpenMP and can scale to tens of thousands of processors. It also has support for graphical processing units (GPUs) through OpenCL and CUDA.
+For optimal execution performance, Octopus is parallelized using MPI and OpenMP and can scale to tens of thousands of processors. It also has support for graphical processing units (GPUs) through OpenCL and CUDA.
 
 Octopus is free software, released under the GPL license, so you are free to download it, use it and modify it.
+Before installing this engine, see `Octopus <https://octopus-code.org/wiki/Main_Page>`_  and its `installation instruction <https://octopus-code.org/wiki/Manual:Installation>`_ for details.
 
-
-
-.. note::
-
-Before installing this engine, go to `Octopus <https://octopus-code.org/wiki/Main_Page>`_  and its `Installation Instruction <https://octopus-code.org/wiki/Manual:Installation>`_ for details.
- 
- 
 .. _NWChem:
 
-`NWChem <https://nwchemgit.github.io/>`_ (version 7.0.0 or later)
-  aims to provide its users with computational chemistry tools that are scalable both in their 
-ability to treat large scientific computational chemistry problems efficiently, and in their use of available parallel computing resources from high-performance parallel supercomputers to conventional workstation clusters.
+`NWChem <https://nwchemgit.github.io/>`_ (version 7.0.0 or later) aims to provide its users with computational chemistry tools that are scalable both in their ability to treat large scientific computational chemistry problems efficiently and in their use of available parallel computing resources from high-performance parallel supercomputers to conventional workstation clusters. NWChem software can handle:
 
-NWChem software can handle:
+* Biomolecules, nanostructures, and solid-state
+* From quantum to classical, and all combinations
+* Ground and excited-states
+* Gaussian basis functions or plane-waves
+* Scaling from one to thousands of processors
+* Properties and relativistic effects
 
-Biomolecules, nanostructures, and solid-state
-From quantum to classical, and all combinations
-Ground and excited-states
-Gaussian basis functions or plane-waves
-Scaling from one to thousands of processors
-Properties and relativistic effects
-.. note::
-
-Before installing this engine, go to `NWChem <https://nwchemgit.github.io/>`_  and its `Installation Instruction <https://nwchemgit.github.io/Download.html>`_ for details.
- 
-  
+Before installing this engine, see `NWChem <https://nwchemgit.github.io/>`_  and its `installation instruction <https://nwchemgit.github.io/Download.html>`_ for details.
 
 Requirements
 =============
 Before installing LITESOPH, the following modules or packages are required:
 
-  * `Python <https://www.w3schools.com/python/>`_ 3.7.6 or later
-  * `Tkinter <https://docs.python.org/3/library/tkinter.html>`_
-  * click_
-  * NumPy_
-  * SciPy_
-  * Matplotlib_
-  * Paramiko_
-  * scp_
-  * Rsync_
+  **Essentials**
+  
+    * `python <https://www.python.org/>`_ 3.7.6 or later
+    * `tkinter <https://docs.python.org/3/library/tkinter.html>`_
+    * click_
+    * numpy_
+    * scipy_
+    * matplotlib_
+    * paramiko_
+    * scp_
+    * rsync_
+
+  **Optional Requirements**
+  
+    **Visualization tools**: `VMD <https://www.ks.uiuc.edu/Research/vmd/>`_ , `vesta <https://jp-minerals.org/vesta/en/>`_ , `imagemagick <https://imagemagick.org/>`_ , `blender <https://www.blender.org/>`_ , `vesta <https://jp-minerals.org/vesta/en/>`_ 
+
+    **Compression tools**: lz4, zstd, lzop, gzip, bzip2, p7zip, xz, pigz, plzip, pbzip2, lbzip2
+
+
+  
+
+
+
 
 Getting the source code of LITESOPH
 ========================================
 You can get the source from a zip-file or from Git:
 
-**Zip-file:** You can get the source as a zip-file for the latest stable release (:download:`litesoph-main.zip <https://github.com/LITESOPH/litesoph/archive/refs/heads/main.zip>`)
+**zip-file:** You can get the source as a zip-file for the latest stable release (:download:`litesoph-main.zip <https://github.com/LITESOPH/litesoph/archive/refs/heads/main.zip>`)
 
-**Git clone:** Alternatively, you can get the source for the latest stable release from github
-
-$ git clone -b main https://github.com/LITESOPH/litesoph.git
-
-Install it using the following command
-
-$ pip install <path-to-litesoph>
-
-Installation
-=============================================================================================================
-After installing above Requirements and Engines, you are ready to install LITESOPH using the following commands:
+**git clone:** Alternatively, you can get the source for the latest stable release from github
 
 .. code-block:: console
 
-  $ git clone -b main https://github.com/LITESOPH/litesoph.git
+  $ git clone -b main https://github.com/aitgcodes/litesoph.git
+
+Install it using the following command
+
+.. code-block:: console
+
+  $ pip install <path-to-litesoph>
+
+
+Installation
+=============================================================================================================
+After installing the above requirements and Engines, you are ready to install LITESOPH using the following commands:
+
+.. code-block:: console
+
+  $ git clone -b main https://github.com/aitgcodes/litesoph.git
   $ pip install <path-to-litesoph> #Find the path to litesoph using "which litesoph"
 
 
