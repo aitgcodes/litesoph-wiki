@@ -1,6 +1,6 @@
 User Documentation
 ========================
+.. toctree::
+    create_open_project
+    job_submission_monitoring
 
-* :doc:`overview`
-* :doc:`create_open_project`
-* :doc:`job_submission_monitoring`

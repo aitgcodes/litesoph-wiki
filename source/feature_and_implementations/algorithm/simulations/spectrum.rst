@@ -1,0 +1,4 @@
+.. _spectrum-theory:
+
+Spectrum
+========
