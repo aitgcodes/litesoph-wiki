@@ -21,4 +21,4 @@ The Workflow for the calculations of MO population is as follows:
 
 **4.** After spectrum is computed, proceed to compute MO population. See :ref:`compute-mo`.
 
-**5.** After the MO population is computed, for post processing and visualization, see :ref:`pp-visualization`.
+.. **5.** After the MO population is computed, for post processing and visualization, see :ref:`pp-visualization`.

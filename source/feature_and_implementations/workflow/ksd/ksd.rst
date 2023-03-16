@@ -20,4 +20,4 @@ The Workflow for the Kohn Sham Decomposition (KSD) is as follows:
 
 **4.** After spectrum is computed, proceed to compute KSD. See :ref:`compute-ksd`
 
-**5.** For post processing and and visualization, see :ref:`pp-visualization`
+.. **5.** For post processing and and visualization, see :ref:`pp-visualization`
