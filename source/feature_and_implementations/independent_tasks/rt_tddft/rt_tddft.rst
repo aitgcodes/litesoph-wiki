@@ -77,7 +77,7 @@ Masking
    :alt: laser_design_page
 
 Select the added lasers for which masking is to be applied. Under masking, check the **Masked Electric Field**. Use the following input parameters
-for masking.
+for masking. This is optionally used to select a region to illuminate for the chosen laser.
 
 **1. Mask Type:** *(default:Plane)* Types of mask defined as boundary to separate the masked and illuminated regions. Available options are :**Plane** and **Sphere**.
    
