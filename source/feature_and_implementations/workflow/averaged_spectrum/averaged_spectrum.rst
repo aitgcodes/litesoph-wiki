@@ -3,9 +3,9 @@
 Averaged Spectrum
 =================
 
-Compatible Engines
--------------------
-GPAW, NWChem, Octopus
+.. note::
+
+    Compatible Engines: GPAW, NWChem, Octopus
 
 The Workflow for the calculations of simulating average spectrum is as follows:
 

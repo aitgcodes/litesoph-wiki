@@ -3,9 +3,8 @@
 KSD
 ===
 
-Compatible Engines
--------------------
-GPAW, Octopus
+.. note::
+   Compatible Engines: GPAW, Octopus
 
 .. image:: ./KSD.png
    :width: 800

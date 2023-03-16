@@ -3,9 +3,8 @@
 Compute KSD
 ====================
 
-Compatible Engines
--------------------
-GPAW, Octopus
+.. note::
+   Compatible Engines: GPAW, Octopus
 
 .. image:: ./compute-ksd.png
    :width: 800
