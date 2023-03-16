@@ -3,9 +3,8 @@
 Pump-probe
 ==========
 
-Compatible Engines
--------------------
-GPAW, NWChem, Octopus
+.. note::
+   Compatible Engines: GPAW, NWChem, Octopus
 
 .. image:: ./pp_workflow.png
    :width: 800

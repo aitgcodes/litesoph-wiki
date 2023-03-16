@@ -3,9 +3,8 @@
 Laser-Masking
 =============
 
-Compatible Engines
-------------------
-GPAW
+.. note::
+   Compatible Engines: GPAW
 
 .. image:: ./masking_workflow.png
    :width: 800
