@@ -1,5 +1,5 @@
-Landing Page
-=============
+Starting LITESOPH
+==================
 
 .. image:: ./landing.png
    :width: 800
@@ -66,16 +66,17 @@ LITESOPH calculation is initiated with creating a workflow under current project
     1. Workflow Mode 
     2. Task Mode
 
-**1.** Menubar
+**1. Menubar:** 
+
     File: Options:
         * New Workflow : Click to create a new Workflow under current LITESOPH project :ref:`create_workflow`            
         * New Project
         * Open Project
         * Exit
 
-**2.** Left Panel: Shows the tree view of existing workflows under current LITESOPH project
+**2. Left Panel:** Shows the tree view of existing workflows under current LITESOPH project
 
-**3.** Central Panel : Collects general information/options
+**3. Central Panel:** Collects general information/options
     * Geometry 
     * Upload Geometry: Uploads the geometry file in .xyz format
     * View: Visualizes the geometry file using visualization software such as VMD, VESTA
@@ -86,4 +87,4 @@ LITESOPH calculation is initiated with creating a workflow under current project
         * Workflow Mode: Navigates the users through predefined steps for selected workflow (Link to workflow mode description)
         * Task Mode: Task-wise implementation defined under categories: Pre-processing, Simulation, Post-Processing
 
-**4.** Right Panel: Shows the generated input and update to users, relavant to the current view in text format.
+**4. Right Panel:** Shows the generated input and update to users, relavant to the current view in text format.
