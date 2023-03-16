@@ -1,9 +1,8 @@
 Simulations of Photo-Induced Properties using LITESOPH
 ========================================================
 
-Photophysical processes are initiated by the absorption of light by the molecules. 
-After light irradiation molecules get promoted to the electronic excited state. 
-In the excited state, molecules can undergo a reaction on the same PES or they can 
+Photophysical and photochemical processes are initiated by the absorption of light by the molecules. 
+After light irradiation molecules get promoted to the electronic excited state, where molecules can undergo a reaction on the same PES or they can 
 deactivate to a ground electronic state via radiative channels like `fluorescence <https://en.wikipedia.org/wiki/Fluorescence>`_ and 
 `phosphorescence <https://en.wikipedia.org/wiki/Phosphorescence>`_ or nonradiative channels like internal conversion ( IC_ ), and intersystem
 crossing (`ISC <https://en.wikipedia.org/wiki/Intersystem_crossing>`_). To understand the photophysics and photochemistry of a system,
