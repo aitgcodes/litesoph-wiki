@@ -6,15 +6,9 @@ Features
 
     algorithm/algorithm.rst
 
-Independent Tasks Based
------------------------
-
 .. toctree::
 
     independent_tasks/independent_tasks.rst
-
-Workflows Based
----------------
 
 .. toctree::
 
