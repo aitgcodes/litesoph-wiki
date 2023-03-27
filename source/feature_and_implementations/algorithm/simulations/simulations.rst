@@ -126,7 +126,7 @@ energy calculated using LCAO TDDFT_ approach in GPAW code is shown in :ref:`Fig.
 
 .. _au55_tcm:
 
-.. figure:: ../../../_static/image_laser/ag55-tcm_4.png
+.. figure:: ../../../_static/images/ag55-tcm_4.png
     :width: 500px
     :align: center
     :height: 400px

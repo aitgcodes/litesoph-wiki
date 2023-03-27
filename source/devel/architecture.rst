@@ -8,6 +8,12 @@ Code Architecture
 This document describes the overall code architecture.
 
 
+.. _litesoph stack:
+
+.. image:: ./stack.png
+   :width: 800
+   :alt: litesoph_stack
+
 Full Picture of the litesoph backend::
 
                        +---------+             

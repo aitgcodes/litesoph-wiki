@@ -19,7 +19,7 @@ Features and Functionalities
 Usage
 =====
 
-.. image:: /_static/job_submission_monitoring/ls-job-submission.png
+.. image:: /_static/images/job_submission.png
    :width: 1000
    :alt: job_submission_monitoring
 
