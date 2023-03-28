@@ -32,6 +32,7 @@ Code overview
     
     architecture   
     job_submission_monitoring
+    visualization_toolkit
     gui_view    
     gui_control
 

@@ -74,6 +74,7 @@ Furthermore, Runtime Query and File Management uses mainly four modules to work:
             - *function*  **_on_check_job_status_remote()**
             - *function*  **_on_check_file_status_remote()**
             - *function*  **_on_kill_job_remote()**
+            - *function*  **_on_kill_job_remote()**
             - *function*  **_on_download_all_files()**
             - *function*  **_on_download_specific_file()**
         
