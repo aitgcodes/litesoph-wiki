@@ -29,6 +29,12 @@ Simulation box will be chosen (automatically) such that the minimum distance bet
 
 If the **Enter Box Dimension** is checked, length of the simulation box (in angstrom) along all the three directions can be entered.
 
+Click on **Restart Option**, if applicable. Posible options include: updating Convergence criteria, Maximum Iteration.
+
+.. note::
+
+   All the input parameters will be collected to generate input if **Restart Option** is chosen. Make sure to change only the relevant parameters such as: Convergence criteria, Maximum Iteration.
+
 **Convergence**
 
 .. image:: ./convergence.png

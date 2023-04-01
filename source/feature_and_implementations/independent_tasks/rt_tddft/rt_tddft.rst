@@ -25,6 +25,13 @@ the beginning.
 
 **5. Polarisation Direction:** Polarization direction of the applied external electric field.
 
+Click on **Restart Option**, if applicable. Posible options include: increasing number of simulation steps.
+
+.. note::
+
+   All the input parameters will be collected to generate input if **Restart Option** is chosen. Make sure to change only the relevant parameters such as: Number of Steps.
+   Any modification of External Fields should be avoided.
+
 .. _laser-design-tools:
 
 Laser Design tools

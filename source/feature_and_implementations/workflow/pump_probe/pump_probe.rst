@@ -26,6 +26,13 @@ The Workflow for the Pump-Probe is as follows:
 Pump-Probe (**Type of Experiment**). For each Pump-Probe input **Delay time list in fs** separated by space. After that, proceed to 
 **Design/Edit Laser**. For laser design, see :ref:`laser-design`.
 
+Click on **Restart Option**, if applicable. Posible options include: increasing number of simulation steps.
+
+.. note::
+
+   All the input parameters will be collected to generate input if **Restart Option** is chosen. Make sure to change **ONLY** the relevant parameters such as: Number of Steps.
+   Any modification of External Fields (Laser Design Parameters) should be avoided. For Pump-Probe workflow, all RT-TDDFT simulations should run for same duration.
+
 **4.** Run all the RT-TDDFT simulations. The first simulation uses only pump. After that, perform each simulation for each pump-probe pair,
 consecutively.
 
