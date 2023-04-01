@@ -8,7 +8,7 @@ For Ground State Calculations, there are three windows for input parameters.
 
 The basic input parameters for ground state DFT Calculations are as follows:
 
-.. image:: ./basic.png
+.. image:: ./basic_updated.png
    :width: 800
    :alt: Spectrum
 

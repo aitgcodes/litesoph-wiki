@@ -17,7 +17,7 @@ accordingly. For example, PBE as Exchange Correaltion and lcao as Basis Type.
 
 **2.** After the ground state calculation is done, proceed to RT-TDDFT calculation with laser pulse.
 
-.. image:: ./laser_init_masking.png
+.. image:: ./laser_init_masking_updated.png
    :width: 800
    :alt: laser_init
 

@@ -10,7 +10,7 @@ of delta pulse, see :ref:`delta-kick`. For the input parameters of laser pulse, 
 Delta kick Inputs
 #################
 
-.. image:: ./Delta-kick.png
+.. image:: ./delta_kick_updated.png
    :width: 800
    :alt: delta_kick
 

@@ -6,7 +6,7 @@ Pump-probe
 .. note::
    Compatible Engines: GPAW, NWChem, Octopus
 
-.. image:: ./pp_workflow.png
+.. image:: ./pump_probe_workflow.png
    :width: 800
    :alt: pp_workflow
 
@@ -18,7 +18,7 @@ The Workflow for the Pump-Probe is as follows:
 
 **3.** After RT-TDDFT calculation is done, proceed to compute spectrum. See :ref:`compute-spectrum`
 
-.. image:: ./laser_init_pp.png
+.. image:: ./laser_init_pp_updated.png
    :width: 800
    :alt: laser_init_pp
 
