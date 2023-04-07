@@ -8,7 +8,7 @@ For Ground State Calculations, there are three windows for input parameters.
 
 The basic input parameters for ground state DFT Calculations are as follows:
 
-.. image:: ./basic.png
+.. image:: ./basic_updated.png
    :width: 800
    :alt: Spectrum
 
@@ -28,6 +28,12 @@ The input parameters for the simulation box are as follows:
 Simulation box will be chosen (automatically) such that the minimum distance between any atom and the edge of the box is the cut off.
 
 If the **Enter Box Dimension** is checked, length of the simulation box (in angstrom) along all the three directions can be entered.
+
+Click on **Restart Option**, if applicable. Posible options include: updating Convergence criteria, Maximum Iteration.
+
+.. note::
+
+   All the input parameters will be collected to generate input if **Restart Option** is chosen. Make sure to change only the relevant parameters such as: Convergence criteria, Maximum Iteration.
 
 **Convergence**
 

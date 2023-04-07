@@ -17,12 +17,19 @@ accordingly. For example, PBE as Exchange Correaltion and lcao as Basis Type.
 
 **2.** After the ground state calculation is done, proceed to RT-TDDFT calculation with laser pulse.
 
-.. image:: ./laser_init_masking.png
+.. image:: ./laser_init_masking_updated.png
    :width: 800
    :alt: laser_init
 
 **External fields:** For masking calculations, choose the parameters for **External fields** as Electric Field (**Type of fields**) and 
 State Preparation (**Type of Experiment**). After that, proceed to **Design/Edit Laser**. For laser design, see :ref:`laser-design`.
+
+Click on **Restart Option**, if applicable. Posible options include: increasing number of simulation steps.
+
+.. note::
+
+   All the input parameters will be collected to generate input if **Restart Option** is chosen. Make sure to change only the relevant parameters such as: Number of Steps.
+   Any modification of External Fields (Laser Design Parameters) should be avoided.
 
 **3.** To choose the masking parameters, see :ref:`masking`.
 

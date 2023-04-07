@@ -10,7 +10,7 @@ of delta pulse, see :ref:`delta-kick`. For the input parameters of laser pulse, 
 Delta kick Inputs
 #################
 
-.. image:: ./Delta-kick.png
+.. image:: ./delta_kick_updated.png
    :width: 800
    :alt: delta_kick
 
@@ -24,6 +24,13 @@ the beginning.
 **4. Frequency of data collection:** Number of times the data will be printed. Default alue `1` indicates that data will be collected at each time steps. 
 
 **5. Polarisation Direction:** Polarization direction of the applied external electric field.
+
+Click on **Restart Option**, if applicable. Posible options include: increasing number of simulation steps.
+
+.. note::
+
+   All the input parameters will be collected to generate input if **Restart Option** is chosen. Make sure to change only the relevant parameters such as: Number of Steps.
+   Any modification of External Fields should be avoided.
 
 .. _laser-design-tools:
 
