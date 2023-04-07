@@ -19,7 +19,7 @@ Features and Functionalities
 Usage
 =====
 
-.. image:: /_static/images/job_submission.png
+.. image:: /_static/job_submission_monitoring/ls-job-submission2.png
    :width: 1000
    :alt: job_submission_monitoring
 
@@ -54,24 +54,30 @@ remote machine which requires captcha authentication for login, passwordless log
 
 **18. Job ID:** to enter the job ID requires to kill simulation
 
-**19. Job Status:** checks the status of running job.
+**19. Scratch Space:** maximum space available to run simulation on machine 
 
-**20. Kill Job:** kill running simulation using Job ID.
+**20. Tracking Time:** maximum time in minutes to monitor running job
 
-**21. Refresh:** get the files information of current project on remote machine.
+**21. Tracking Frequency:** time interval in minutes to periodically monitor running jobs
 
-**22. Download All Files:** to downlaod all files from remote machine.
+**22. Job Status:** checks the status of running job.
 
-**23. File selection widget:** widget to select relevant files of current project.
+**23. Kill Job:** kill running simulation using Job ID.
 
-**24. Download File:** to download the selected file.
+**24. Refresh:** get the files information of current project on remote machine.
 
-**25. View File:** to download the selected file.
+**25. Download All Files:** to downlaod all files from remote machine.
 
-**26. Plot File:** to open litesoph visualisation toolkit.
+**26. File selection widget:** widget to select relevant files of current project.
 
-**27. Back:** get to previous page.
+**27. Download File:** to download the selected file.
 
-**28. Back to main page:** get back to main page.
+**28. View File:** to download the selected file.
 
-**29. Proceed:** to proceed to next task of workflow.
+**29. Plot File:** to open litesoph visualisation toolkit.
+
+**30. Back:** get to previous page.
+
+**31. Back to main page:** get back to main page.
+
+**32. Proceed:** to proceed to next task of workflow.
