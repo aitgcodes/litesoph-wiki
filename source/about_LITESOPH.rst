@@ -57,7 +57,8 @@ Before installing LITESOPH, the following modules or packages are required:
 
   **Essentials**
   
-    * `python <https://www.python.org/>`_ 3.7.6 or later
+    * `Python <https://www.w3schools.com/python/>`_ version >= 3.7.6 and < 3.11.0
+    * `Pillow <https://pypi.org/project/Pillow/>`_ version <= 9.5.0
     * `tkinter <https://docs.python.org/3/library/tkinter.html>`_
     * click_
     * numpy_
