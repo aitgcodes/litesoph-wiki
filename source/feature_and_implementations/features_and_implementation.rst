@@ -21,7 +21,7 @@ Features
 
     - Averaged spectrum
 
-    - KSD
+    - Kohn-Sham Decomposition (KSD)
 
     - MO population
 
@@ -55,7 +55,7 @@ Features
 
 .. #. **Averaged spectrum**
 
-.. #. **KSD**
+.. #. **Kohn-Sham Decomposition (KSD)**
 
 .. #. **MO population**
 

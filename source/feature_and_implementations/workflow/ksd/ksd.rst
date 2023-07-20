@@ -1,7 +1,8 @@
 .. _KSD:
 
-KSD
-===
+=============================
+Kohn-Sham Decomposition (KSD)
+=============================
 
 .. note::
    Compatible Engines: GPAW, Octopus

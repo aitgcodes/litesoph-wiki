@@ -92,20 +92,32 @@ You can get the source from a zip-file or from Git:
 
   $ git clone -b main https://github.com/aitgcodes/litesoph.git
 
-Install it using the following command
+.. Install it using the following command
 
-.. code-block:: console
+.. .. code-block:: console
 
-  $ pip install <path-to-litesoph>
+..  $ pip install <path-to-litesoph>
+
+Python Installation
+======================================
+Use the following command to install python (version >= 3.7.6 and < 3.11) using `conda <https://www.anaconda.com>`_ :
+
+.. code-block:: console   
+    
+  $ conda install -c conda-forge python=<version> #Specify version as per requirements
 
 
-Installation
+
+LITESOPH Installation
 =============================================================================================================
 After installing the above requirements and Engines, you are ready to install LITESOPH using the following commands:
 
-.. code-block:: console
+.. .. code-block:: console
 
-  $ git clone -b main https://github.com/aitgcodes/litesoph.git
+..  $ git clone -b main https://github.com/aitgcodes/litesoph.git
+
+.. code-block:: console   
+ 
   $ pip install <path-to-litesoph> #Find the path to litesoph using "which litesoph"
 
 
