@@ -330,8 +330,3 @@ References
 .. [7] T. P. Rossi, M. Kuisma, M. J. Puska, R. M. Nieminen, and P. Erhart, Kohn–sham decomposition in real-time time-dependent densityfunctional
        theory: An efficient tool for analyzing plasmonic excitations, Journal of Chemical Theory and Computation 13, 4779 (2017),
        pMID: 28862851, `https://doi.org/10.1021/acs.jctc.7b00589 <https://doi.org/10.1021/acs.jctc.7b00589>`_ .
-
-
-
-
-

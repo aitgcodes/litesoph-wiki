@@ -19,7 +19,7 @@ Features and Functionalities
 Usage
 =====
 
-.. image:: /_static/job_submission_monitoring/ls-job-submission2.png
+.. image:: /_static/images/job_submission.png
    :width: 1000
    :alt: job_submission_monitoring
 
@@ -44,42 +44,34 @@ remote machine which requires captcha authentication for login, passwordless log
 
 **13. Generate Job Script:** to generate job script after entering correct login parameters
 
-**14. Modify Job Script:** modify job script as the cluster supported format and confirm.
+**14. Save Job Script:** to save the generated job script
 
-**15. Save Job Script:** to save the generated job script
+**15. Run Job:** to run the job using saved job script
 
-**16. Run Job:** to run the job using saved job script
+**16. View Output:** to view the output log of current simulation in remote machine
 
-**17. View Output:** to view the output log of current simulation in remote machine
+**17. Job Status Bar:** shows the status of running job (displays *Job Done* after completion of job)
 
-**18. Job Status Bar:** shows the status of running job (displays *Job Done* after completion of job)
+**18. Job ID:** to enter the job ID requires to kill simulation
 
-**19. Job ID:** to enter the job ID requires to kill simulation
+**19. Job Status:** checks the status of running job.
 
-**20. Scratch Space:** maximum space available to run simulation on machine 
+**20. Kill Job:** kill running simulation using Job ID.
 
-**21. Tracking Time:** maximum time in minutes to monitor running job
+**21. Refresh:** get the files information of current project on remote machine.
 
-**22. Tracking Frequency:** time interval in minutes to periodically monitor running jobs
+**22. Download All Files:** to downlaod all files from remote machine.
 
-**23. Job Status:** checks the status of running job.
+**23. File selection widget:** widget to select relevant files of current project.
 
-**24. Kill Job:** kill running simulation using Job ID.
+**24. Download File:** to download the selected file.
 
-**25. Refresh:** get the files information of current project on remote machine.
+**25. View File:** to download the selected file.
 
-**26. Download All Files:** to downlaod all files from remote machine.
+**26. Plot File:** to open litesoph visualisation toolkit.
 
-**27. File selection widget:** widget to select relevant files of current project.
+**27. Back:** get to previous page.
 
-**28. Download File:** to download the selected file.
+**28. Back to main page:** get back to main page.
 
-**29. View File:** to download the selected file.
-
-**30. Plot File:** to open litesoph visualisation toolkit.
-
-**31. Back:** get to previous page.
-
-**32. Back to main page:** get back to main page.
-
-**33. Proceed:** to proceed to next task of workflow.
+**29. Proceed:** to proceed to next task of workflow.

@@ -26,7 +26,7 @@ base is described below.
 
 
 .. seealso::
-    * The code for our GPAW tasks: :git:`litesoph.engines.gpaw.gpaw_task.py`
+    * The code for our GPAW tasks: `litesoph.engines.gpaw.gpaw_task.py`
 
 
 Description of base-classes

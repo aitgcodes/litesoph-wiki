@@ -4,7 +4,8 @@ Ground State
 ============
 For Ground State Calculations, there are three windows for input parameters.
 
-**Basic**
+Basic
+-----
 
 The basic input parameters for ground state DFT Calculations are as follows:
 
@@ -35,7 +36,8 @@ Click on **Restart Option**, if applicable. Posible options include: updating Co
 
    All the input parameters will be collected to generate input if **Restart Option** is chosen. Make sure to change only the relevant parameters such as: Convergence criteria, Maximum Iteration.
 
-**Convergence**
+Convergence
+-----------
 
 .. image:: ./convergence.png
    :width: 800
@@ -53,7 +55,8 @@ Parameters related to the convergnece of electronic energies:
 
 **5. Mixing:** Mixing factor for self consistency.
 
-**Advanced**
+Advanced
+--------
 
 .. image:: ./advanced.png
    :width: 800

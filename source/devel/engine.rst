@@ -38,7 +38,7 @@ the super class :class:`~litesoph.common.engine_manager.EngineManager`
 
 
 .. seealso::
-    * The code for our NWChem interface: :git:`litesoph.engines.newchem.nwchem_manager.py`
+    * The code for our NWChem interface: `litesoph.engines.newchem.nwchem_manager.py`
 
 
 Description of base-classes

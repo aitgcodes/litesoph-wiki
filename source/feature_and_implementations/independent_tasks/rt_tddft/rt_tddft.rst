@@ -8,7 +8,7 @@ of delta pulse, see :ref:`delta-kick`. For the input parameters of laser pulse, 
 .. _delta-kick:
 
 Delta kick Inputs
-#################
+-----------------
 
 .. image:: ./delta_kick_updated.png
    :width: 800
@@ -35,7 +35,7 @@ Click on **Restart Option**, if applicable. Posible options include: increasing 
 .. _laser-design-tools:
 
 Laser Design tools
-##################
+------------------
 
 .. image:: ./laser_design.png
    :width: 800
@@ -97,6 +97,7 @@ for masking. This is optionally used to select a region to illuminate for the ch
    * **Abrupt**: refers to an abrupt division of cell i.e. using a Heaviside function
 
    * **Smooth**: refers to the boundary region being defined through an error function
+
 **3. RSig**: *(default:0.1)* Applicable for Boundary Type: **Smooth**. Refers to sigma (in Angstroms) of the error function to be used
 
    
@@ -118,7 +119,7 @@ Applicable for Mask Type: **Plane**. Direction along which the boundary is place
 .. _properties:
 
 Properties
-##########
+----------
 
 .. image:: ./properties.png
    :width: 800

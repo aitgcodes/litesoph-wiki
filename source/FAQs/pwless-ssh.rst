@@ -1,10 +1,10 @@
 How to enable passwordless SSH?
-===============================
+-------------------------------
 
 Step 1: Check or Create Authentication SSH-Keygen Keys on local machine
 	
 >>> $ ls -al ~/.ssh/id_*.pub  #check existing key, if key exists goto step 2
->>> $ ssh-keygen -t rsa      # Keep pressing enter
+>>> $ ssh-keygen -t rsa       #Keep pressing enter
 
 
 .. image:: ./terminal.png
@@ -27,5 +27,3 @@ Step 3: Test passwordless-ssh Login from local  machine to remote
 Step 4: Get the path of private key file
 
 >>> $ realpath ~/.ssh/id_rsa
-
-
