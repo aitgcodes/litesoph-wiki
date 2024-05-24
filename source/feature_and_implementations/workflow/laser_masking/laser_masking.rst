@@ -1,7 +1,6 @@
 .. _laser-masking:
 
-=============
-Laser Masking
+Laser-Masking
 =============
 
 .. note::

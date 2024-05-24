@@ -16,11 +16,14 @@ Contents
 --------
 
 .. toctree::
-   about_LITESOPH
-   feature_and_implementations/features_and_implementation     
-   user_documentation/user_documentation_index
-   devel/devel
-   FAQs/FAQ
-   Bugs
 
-
+    about_LITESOPH
+    installation
+    feature_and_implementations/features_and_implementation     
+    user_documentation/user_documentation_index
+    examples/examples
+    devel/devel
+    FAQs/FAQ
+    Bugs
+    release_notes
+    people

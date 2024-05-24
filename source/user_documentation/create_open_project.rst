@@ -13,7 +13,7 @@ Starting LITESOPH
 **3.** About LITESOPH: Links to the official website page
 
 Create a new Project 
-=============================
+====================
 .. image when Create LITESOPH Project is clicked
 
 .. image:: ./create_project.png
@@ -34,7 +34,7 @@ Create a new Project
 .. _create_workflow:
 
 Create a Workflow
-===============================
+=================
 .. image Workflow manager page
 
 Available two options are:

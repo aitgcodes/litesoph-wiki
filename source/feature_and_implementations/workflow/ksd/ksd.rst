@@ -1,8 +1,7 @@
 .. _KSD:
 
-=============================
-Kohn-Sham Decomposition (KSD)
-=============================
+KSD
+===
 
 .. note::
    Compatible Engines: GPAW, Octopus
@@ -21,4 +20,22 @@ The Workflow for the Kohn Sham Decomposition (KSD) is as follows:
 
 **4.** After spectrum is computed, proceed to compute KSD. See :ref:`compute-ksd`
 
-.. **5.** For post processing and and visualization, see :ref:`pp-visualization`
+.. _compute-ksd:
+
+Compute KSD
+-----------
+
+.. note::
+   Compatible Engines: GPAW, Octopus
+
+.. image:: ./compute-ksd.png
+   :width: 800
+   :alt: Spectrum
+
+To perform Kohn Sham Decomposition (KSD), the following parameters are used:   
+
+**1. List of frequencies (eV):** Input excitation energies (eV) to be targeted. For each frequency 
+the KSD is performed and plotted seperately.
+
+**2. Axis limit:** Higher limit of both X-axis (occupied energy) and 
+Y-axis (unoccupied energy) for plotting. The origin is set as (0,0).

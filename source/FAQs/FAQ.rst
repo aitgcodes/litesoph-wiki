@@ -2,6 +2,4 @@
 Frequently Asked Questions
 ==========================
 
-* :doc:`pwless-ssh`
-
-
+.. include:: pwless-ssh.rst

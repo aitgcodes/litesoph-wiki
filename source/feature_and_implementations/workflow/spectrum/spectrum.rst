@@ -1,7 +1,7 @@
 .. _spectrum:
 
-Polarized Spectrum
-==================
+Spectrum
+=========
 
 .. note::
    Compatible Engines: GPAW, NWChem, Octopus
@@ -19,5 +19,3 @@ The Workflow for the calculations of spectrum is as follows:
 **3.** After RT-TDDFT calculation is done, proceed to compute spectrum. See :ref:`compute-spectrum`.
 
 .. **4.** For post processing and and visualization, see :ref:`pp-visualization`
-
-

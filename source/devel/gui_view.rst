@@ -26,6 +26,7 @@ Class InputFrame
     Tkinter Frame template for collecting LITESOPH inputs.
 
 .. _inp_param:
+
 Parameters
 ^^^^^^^^^^
 
