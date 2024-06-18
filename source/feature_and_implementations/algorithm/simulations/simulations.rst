@@ -4,9 +4,9 @@ Simulations of Photo-Induced Properties using LITESOPH
 Photophysical and photochemical processes are initiated by the absorption of light by the molecules. 
 After light irradiation molecules get promoted to the electronic excited state, where molecules can undergo a reaction on the same PES or they can 
 deactivate to a ground electronic state via radiative channels like `fluorescence <https://en.wikipedia.org/wiki/Fluorescence>`_ and 
-`phosphorescence <https://en.wikipedia.org/wiki/Phosphorescence>`_ or nonradiative channels like internal conversion ( IC_ ), and intersystem
+`phosphorescence <https://en.wikipedia.org/wiki/Phosphorescence>`_ or nonradiative channels like internal conversion (IC_), and intersystem
 crossing (`ISC <https://en.wikipedia.org/wiki/Intersystem_crossing>`_). To understand the photophysics and photochemistry of a system,
-we have to first compute an :ref:`absorption spectrum` to get an idea about the optically accessible bright
+we compute an :ref:`absorption spectrum` to get an idea about the optically accessible bright
 and inaccessible dark states respectively. Then the state of interest can be targeted to understand the
 photodynamics in the excited state.
  
@@ -22,7 +22,7 @@ their transition probabilities. The absorption spectrum can be calculated using 
 TDDFT_, CASPT2_, CCSD_, and ADC_ (2) [1]_. Among all methods, TDDFT_ offers a good compromise
 between accuracy and computational cost for a large system  [2]_ [3]_ [4]_ [5]_ [6]_ . Thus TDDFT_ is widely used to compute
 the absorption spectrum. Both linear response (LR)-TDDFT and real-time (RT)-TDDFT can be used
-to calculate spectrum in frequency and time domain respectively. LITESOPH uses RT-TDDFT_ approach to compute photoabsorption given its relatively low computational expense for large systems as well as the capability to be given beyond linear response.
+to calculate spectrum in frequency and time domains respectively. LITESOPH uses the RT-TDDFT_ approach to compute photoabsorption given its relatively low computational expense for large systems as well as the capability to be given a beyond linear response.
 
 
 .. _TDDFT : https://en.wikipedia.org/wiki/Time-dependent_density_functional_theory#:~:text=Time%2Ddependent%20density%2Dfunctional%20theory,as%20electric%20or%20magnetic%20fields.
@@ -35,13 +35,13 @@ to calculate spectrum in frequency and time domain respectively. LITESOPH uses R
 Kohn-Sham Decomposition (KSD)
 -----------------------------------
 Time-dependent density functional theory (TDDFT_) built on top of Kohn-Sham (KS) density functional theory (DFT) is a
-powerful tool in computational physics and chemistry for accessing the light-matter interaction. Starting from the seminal work
+powerful tool in computational physics and chemistry for accessing light-matter interaction. Starting from the seminal work
 on jellium nanoparticles, TDDFT_ has become an important tool for modeling plasmonic response from a quantum mechanical
 perspective and has proven to be useful for calculating the response of individual nanoparticles and their compounds as well as other
-plasmonic materials. Additionally, a number of models and concepts have been developed for quantifying and understanding
+plasmonic materials. Additionally, several models and concepts have been developed for quantifying and understanding
 plasmonic character within the TDDFT approach. TDDFT in the linear-response regime is often formulated in frequency space
-in terms of the Casida matrix expressed in the Kohn-Sham electron-hole space. The Casida approach directly enables a decomposition of the electronic excitations into the underlying KS electron-hole transitions, which easily provides quantum-mechanical
-understanding of the plasmonic response. By contrast, real-time TDDFT_ (RT-TDDFT) (an alternative but computationally efficient approach with favorable scaling with respect to system size and is also applicable to the nonlinear regime) results are often
+in terms of the Casida matrix expressed in the Kohn-Sham electron-hole space. The Casida approach directly enables a decomposition of the electronic excitations into the underlying KS electron-hole transitions, which easily provides a quantum-mechanical
+understanding of the plasmonic response. By contrast, real-time TDDFT_ (RT-TDDFT) (an alternative but computationally efficient approach with favorable scaling with respect to system size, applicable to the nonlinear regime) results are often
 limited to absorption spectra or the analysis of the induced densities or fields. However, recently, Rossi et al. have developed KS
 decomposition ( KSD_ ) tool based on the RT-TDDFT code that is available in the free GPAW code. The underlying RT-TDDFT
 code uses the linear combination of atomic orbitals ( LCAO_ ) method and enable calculations involving hundreds of noble metal
@@ -84,9 +84,9 @@ The weight `w_{ia}(\omega)` in Eq. :math:`\ref{eq:1}` is obtained from the absor
     \end{equation}
 
 
-We  note here is that the above equation is given particularly for the x-polarized light. However, the same thing can also be evaluated for y or z-polarized light.
+We note here that the above equation particularly deals with x-polarized light. However, the same variable can also be evaluated for y or z-polarized light.
 
-The KS decomposition of the absorption spectrum in Eq. :math:`\ref{eq:3}`  is defined as
+The KS decomposition of the absorption spectrum in Eq. :math:`\ref{eq:3}` is defined as
 
 .. math::
     \begin{equation}
@@ -96,7 +96,7 @@ The KS decomposition of the absorption spectrum in Eq. :math:`\ref{eq:3}`  is de
     \end{equation}
 
 
-where  the dipole matrix element is obtained as
+where the dipole matrix element is obtained as
 
 .. math::
     \begin{equation}
@@ -182,8 +182,8 @@ orbitals:
 
 LASER Simulation
 -------------------
-Once we have the photoabsorption spectrum of any system, we get an information about the excitation frequencies 
-present in the system. Using any frequency of excitation, we can hit the system with a laser and study the time 
+Once we have the photoabsorption spectrum of a system, we get information about the excitation frequencies 
+present in the system. Using an excitation frequency, we can hit the system with a laser and study the time 
 dynamics of any physical observable of our interest. 
  
 The Gaussian light pulse is defined as
@@ -219,7 +219,7 @@ which is defined as
  
 The Gaussian envelope in time will also yield the Gaussian envelope in frequency (Gaussians are eigenfunctions of a
 Fourier transform), with width equal to the inverse of the width in time. 
-The full width at half maximum ( FWHM_ ) of Gaussian pulse is given as
+The full width at half maximum ( FWHM_ ) of the Gaussian pulse is given as
 
 .. math::
     \begin{equation}
@@ -244,7 +244,7 @@ Energy transfer is one of the most fundamental processes on the molecular scale,
 systems and energy conversion in electronic devices such as organic solar cells or light-emitting diodes. The design principles
 of natural light-harvesting complexes have found considerable interest, as scientists believe that the principles realized in nature
 can be mimicked in the design of artificial organic devices. One standard method to interpret experimental data of excitation energy transfer between a donor (D) and an acceptor (A)
-molecule separated by the distance R is the so-called Forster resonance energy transfer ( FRET_ ) theory. `Forster` theory describes ¨
+molecule separated by the distance R is the so-called Forster resonance energy transfer ( FRET_ ) theory. `Forster` theory describes
 the nonradiative energy transfer mediated by a (quantum-mechanical) coupling between the transition dipoles of the donor and
 acceptor molecules. One of the central assumptions in FRET is that the coupling between D and A
 can be described by a (point)-dipole-dipole interaction, falling as 1/R3.
@@ -327,6 +327,6 @@ References
        response time-dependent density functional theories for molecular chromophores ranging
        from sparse to high densities of states. J. Chem. Theory Comput. 2015, 11, 1102–1109.
 
-.. [7] T. P. Rossi, M. Kuisma, M. J. Puska, R. M. Nieminen, and P. Erhart, Kohn–sham decomposition in real-time time-dependent densityfunctional
+.. [7] T. P. Rossi, M. Kuisma, M. J. Puska, R. M. Nieminen, and P. Erhart, Kohn–sham decomposition in real-time time-dependent density functional
        theory: An efficient tool for analyzing plasmonic excitations, Journal of Chemical Theory and Computation 13, 4779 (2017),
        pMID: 28862851, `https://doi.org/10.1021/acs.jctc.7b00589 <https://doi.org/10.1021/acs.jctc.7b00589>`_ .
