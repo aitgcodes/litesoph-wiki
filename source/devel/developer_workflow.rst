@@ -16,8 +16,8 @@ Setting up your local repository
 Setting up your development environment
 =======================================
 
-You can make virtual environment using either ``conda`` or ``python-venv``.
-The steps to create environment by these methods are listed below.
+You can make the virtual environment using either ``conda`` or ``python-venv``.
+The steps to create an environment through these methods are listed below.
 
 Conda environment
 ^^^^^^^^^^^^^^^^^^
@@ -25,7 +25,7 @@ Step-1: Download Anaconda_ package manager.
 
 Step-2: Install Anaconda_ in the HOME directory.
 
-Step-3: Create new virtual environment(say,test-lite):: 
+Step-3: Create new virtual environment(say test-lite):: 
 
  $ conda create -n test-lite python=3.7.6
 
@@ -33,7 +33,7 @@ Step-4: Activate the test-lite environment::
 
  $ conda activate test-lite
 
-Step-5: Install litesoph in a editable mode:: 
+Step-5: Install litesoph in an editable mode:: 
 
  $ pip install -e <path litesoph package>
 
@@ -45,7 +45,7 @@ Step-1: Check Python version::
 
 Step-2: If it is <3.7.6 upgrade the Python version to 3.7.6 if possible else use conda environment.
 
-Step-3: Create new virtual environment (say, test-lite)::
+Step-3: Create a new virtual environment (say test-lite)::
 
  $ python -m venv test-lite
 
@@ -61,7 +61,7 @@ Step-5: Install litesoph in a editable mode::
 Coding Standards
 ================
 The LITESOPH project adheres to PEP-8 guidelines for writing code in Python. 
-Summary of the PEP-8 guidelines and advantages of using this system is explained 
+The PEP-8 guidelines and the advantages of using this system are explained 
 in a clear and concise manner in an article published by `Real Python <https://realpython.com/python-pep8/>`_. 
 For more information refer to the original  `PEP-8 <https://www.python.org/dev/peps/pep-0008/>`_ document.
 
