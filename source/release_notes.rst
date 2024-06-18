@@ -12,7 +12,7 @@ Workflow Mode Enhancements:
 
 * General Improvements: Integration of Pump-Probe across all engines, and resolution of cloning issues for all workflows, except for Pump-Probe.
 * Engine Specific Updates:
-    * GPAW: Fully operational (Previously, pump probe was not working properly)
+    * GPAW: Fully operational (along with Pump-Probe integration)
     * OCTOPUS: All features now functional; previously, only "Compute Spectrum" was operational.
 
 Task Mode Updates:
@@ -20,7 +20,7 @@ Task Mode Updates:
 
 * Enhanced post-processing capabilities including Compute Spectrum, Masking, KSD, and Molecular Orbital Population.
 * Successful integration of all the engines in task mode.
-* Automaticly updates to task dependencies to use the most recent related task.
+* Automatically updates task dependencies to use the most recent related task.
 
 User Interface and Usability Improvements:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -45,8 +45,8 @@ Future Updates:
     * Multiplicity option and Spin unrestricted calculation are currently disabled.
     * Implementing more features for NwChem.
     * Integration of TAS in task mode.
-* Ongoing works:
+* Ongoing work:
     * Non-Adiabatic dynamics
-    * QMMM tools for large scale systems
+    * QM/MM tools for large scale systems
     * Plasmonicity Index calulator
     * Aggregate Hamiltonian mapper
