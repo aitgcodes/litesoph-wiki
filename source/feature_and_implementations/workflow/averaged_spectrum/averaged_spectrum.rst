@@ -6,10 +6,7 @@ Averaged Spectrum
 .. note::
 
     Compatible Engines: GPAW, NWChem, Octopus
-
-The Workflow for the calculations of simulating average spectrum is as follows:
-
-Averaged spectrum of a molecule workflow can be modeled as:
+The Workflow for computing the averaged spectrum of a molecule is as follows: 
 
 ::
   
@@ -21,22 +18,22 @@ Averaged spectrum of a molecule workflow can be modeled as:
   |---------------|      |  4. RT-TDDFT- z |      | 7.compute-spectra-z|    |----------------|
                          |-----------------|      |--------------------|  
 
-One needs to compute the RT-TDDFT for three different polarization,generate the crossection vectors for the same and then Litesoph will generate the averaged spectrum
+One needs to calculate the RT-TDDFT for three different polarization, generate the cross-section vectors for the same and then compute the averaged spectrum through litesoph.
 
 **1.**  Start the workflow with ground state calculation. See :ref:`GS`.
 
-**2.** After the ground state calculation is done, proceed to RT-TDDFT calculation. See Delta Kick Inputs under :ref:`rt-tddft`.
+**2.** After the ground state calculation is completed, proceed to RT-TDDFT calculation. See Delta Kick Inputs under :ref:`rt-tddft`.
 
     | **1** Compute the RT-TDDFT in the X polarization direction, click Proceed.
     | **2** Compute the RT-TDDFT in the Y polarization direction, click Proceed.
     | **3** Compute the RT-TDDFT in the Z polarization direction, click Proceed.
 
-**3.** After RT-TDDFT calculation is done, proceed to compute spectrum. See :ref:`compute-spectrum`.
+**3.** After the RT-TDDFT calculation is done, proceed to compute spectrum. See :ref:`compute-spectrum`.
 
-    | **1** Select the range for spectrum generation,then either submit local or network depending where litesoph has been deployed for the X polarization and click proceed
+    | **1** Select the range for spectrum generation, then either submit local or network depending on where litesoph has been deployed for the X polarization and click proceed
     | **2** Select the same range and submit for Y polarization and click proceed.
     | **3** Select the same range and submit for Z polarization and click proceed.
 
-**4.** After the crossection vector has been generated for all three polarization, hit submit and then proceed to plot the average spectrum.
+**4.** After the cross-section vector has been generated for all three polarization, hit submit and then proceed to plot the average spectrum.
 
 .. **4.** After the MO population is computed, for post processing and visualization, see :ref:`pp-visualization`.
