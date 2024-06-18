@@ -45,7 +45,7 @@ Convergence
 
 Parameters related to the convergence of electronic energies:
 
-**1. Maximum Iteration:** Maximum number of iterations in a scf cycle.
+**1. Maximum Iteration:** Maximum number of iterations in an scf cycle.
 
 **2. Energy Convergence (in au):** Convergence threshold in au for electronic energy.
 
