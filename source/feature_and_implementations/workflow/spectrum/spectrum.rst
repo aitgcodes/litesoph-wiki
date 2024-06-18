@@ -10,7 +10,7 @@ Spectrum
    :width: 800
    :alt: Spectrum
 
-The Workflow for the calculations of spectrum is as follows:
+The Workflow for the spectrum calculation is as follows:
 
 **1.** Start the workflow with ground state calculation. See :ref:`GS`.
 

@@ -103,7 +103,7 @@ Creating a new GUI frame
 3.  Initiate the InputFrame class with :ref:`inp_param` : *fields* 
 4.  Modify the method trace_variables( ) to add more control to the widgets
 5.  Use the method get_values() to get the set of selected input parameters
-6.  The default values gets assigned from Parameters : *fields*. To customise the defaults, use the method init_widgets( ). 
+6.  The default values get assigned from Parameters : *fields*. To customise the defaults, use the method init_widgets( ). 
 
 Updating the existing frames
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^

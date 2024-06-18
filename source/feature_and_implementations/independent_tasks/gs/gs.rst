@@ -21,7 +21,7 @@ The basic input parameters for ground state DFT Calculations are as follows:
 
 The input parameters for the simulation box are as follows:
 
-**5. Grid Spacing (in angstrom):** Mesh grid for fd in real-space
+**5. Grid Spacing (in angstrom):** Mesh grid for fd in real-space.
 
 **6. Box Shape:** Shape of the simulation box. Available options are parallelepiped, sphere, cylinder and minimum.
 
@@ -30,7 +30,7 @@ Simulation box will be chosen (automatically) such that the minimum distance bet
 
 If the **Enter Box Dimension** is checked, length of the simulation box (in angstrom) along all the three directions can be entered.
 
-Click on **Restart Option**, if applicable. Posible options include: updating Convergence criteria, Maximum Iteration.
+Click on **Restart Option**, if applicable. Possible options include: updating Convergence criteria, Maximum Iteration.
 
 .. note::
 
@@ -43,15 +43,15 @@ Convergence
    :width: 800
    :alt: Spectrum
 
-Parameters related to the convergnece of electronic energies:
+Parameters related to the convergence of electronic energies:
 
-**1. Maximum Iteration:** Maximum number of iterations in a scf cycle.
+**1. Maximum Iteration:** Maximum number of iterations in an scf cycle.
 
 **2. Energy Convergence (in au):** Convergence threshold in au for electronic energy.
 
 **3. Density Convergence (in au):** Convergence threshold in au for charge density.
 
-**4. Smearing:** Gaussian spreading for brillouin zone integration .
+**4. Smearing:** Gaussian spreading for brillouin zone integration.
 
 **5. Mixing:** Mixing factor for self consistency.
 

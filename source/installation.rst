@@ -23,18 +23,17 @@ Before installing LITESOPH, the following modules or packages are required:
 
 
 **Installation**
-    Some very basic information. If you never used Litesoph before, maybe it is best to start here, otherwise you can just skip and go to the next sections.
 
 **Python**
 ----------
 
-    We currently only support python versions from  3.7 to 3.10, hence we recommend to check the python version installed in your machine
+    We currently only support python versions from  3.7 to 3.10, hence we recommend checking the python version installed in your machine
 
 .. code-block:: console
  
     $ python --version
 
-If the output is not in the given range, please reinstall the python with the following command:
+If the output is not in the given range, please reinstall python with the following command:
 
 .. code-block:: console
   
@@ -51,18 +50,18 @@ After the check, just run the following command in the main directory of litesop
 **Engines**
 -----------
 
-Running computational codes can often pose challenges, especially due to their heavy computational requirements, often necessitating access to High-Performance Computing (HPC) resources. However, not everyone has easy access to such resources. This is where Litesophs comes in to bridge the gap.
+Running computational code can often pose challenges due to their heavy computational requirements, often necessitating access to High-Performance Computing (HPC) resources, which are not readily available to everyone. This is where LITESOPH bridges the gap. 
 
 .. note::
 
-    **However, Litesoph requires seperate installation of the the underlying engines if one wants to run the calculations locally. If you want to run on a remote server where litesoph has been already deployed, please skip to the final section about getting litesoph source code**  
+    **LITESOPH requires seperate installation of the the underlying engines if one wants to run the calculations locally. If you want to run on a remote server where LITESOPH has been already deployed, please skip to the final section about obtaining LITESOPH source code.**  
 
 We've compiled the instllation guide for all the three engines for ease of access :
 
 **GPAW**
 ++++++++
 
-GPAW relies on the Python library atomic simulation environment (ASE), so you need to install ASE first. GPAW itself is written mostly in the Python programming language, but there are also some C-code used for:
+GPAW relies on the Python library atomic simulation environment (ASE), so you need to install ASE first. GPAW itself is written mostly in the Python programming language, but there is also some C based code used for:
    
     **Requirements**
         * Python 3.8 or later
@@ -74,17 +73,17 @@ GPAW relies on the Python library atomic simulation environment (ASE), so you ne
         * `BLAS <https://www.netlib.org/blas/>`_ library
 
 
-**Installation Using sudo**
-    If you are installing GPAW on you personal PC, or have the root access to the workstation, using sudo is the best way for installing GPAW
+**Installation using sudo**
+    If you are installing GPAW on your personal PC, or have the root access to the workstation, using sudo is recommended.
 
 .. code-block:: console
 
     $ sudo apt-get install gpaw
 
 
-**Insallation Using PIP**
+**Insallation using PIP**
 
-    The simplest way to install GPAW is using pip and the GPAW package from the Python package index (PyPI):
+    The simplest way to install GPAW is using pip and the GPAW package from the Python package index (PyPI).
 
 .. code-block:: console
 
@@ -92,7 +91,7 @@ GPAW relies on the Python library atomic simulation environment (ASE), so you ne
  
 .. 
 
-    *Note : If you install GPAW using this , you must also install the PAW dataset seperately*
+    *Note : If you install GPAW using this, you must also install the PAW dataset separately*
 
     Install the datasets into the folder <dir> using this command:
 
@@ -109,7 +108,7 @@ Aims to provide its users with computational chemistry tools that are scalable b
 
 **Insallation**
 
-To install Nwchem in your local machine,
+To install NWchem in your local machine,
 
 **Using Sudo**
 
@@ -117,17 +116,17 @@ Input the following command in your terminal
 
 .. code-block:: console
 
-    $ sudo apt-get instal nwchem
+    $ sudo apt-get install nwchem
 
 **Source Compilation**
 
-If you don't have access to root, you can install Nwchem using the source code.
-The source code can be downloaded from `<https://nwchemgit.github.io/Download.html>`_ along with the compilation instructions
+If you don't have root access, you can install NWchem using the source code.
+The source code can be downloaded from `<https://nwchemgit.github.io/Download.html>`_ along with the compilation instructions.
 
 **Octopus**
 +++++++++++
 
-Octopus is a scientific program aimed at the ab initio virtual experimentation on a hopefully ever-increasing range of system types. Electrons are described quantum-mechanically within density-functional theory (DFT), in its time-dependent form (TDDFT) when doing simulations in time.
+Octopus is a scientific program aimed at ab initio virtual experimentation on a hopefully ever-increasing range of system types. Electrons are described quantum-mechanically within density-functional theory (DFT), in its time-dependent form (TDDFT) when running simulations in time.
 
 Proceeed to download any version of octopus from `<https://octopus-code.org/documentation/13/releases/>`_ 
 
@@ -213,7 +212,7 @@ Configuration
 =============
 
 In software development, configuration files play a crucial role in customizing the behavior of applications or modules. 
-A configuration file is a plain text file that contains parameters and settings that define how a program should operate. These settings can range from file paths and connection strings to more complex configurations like feature toggles or system settings.
+A configuration file is a plain text file that contains parameters and settings that define how a program should operate. These settings range from file paths and connection strings to more complex configurations like feature toggles or system settings.
 
 Understanding the Config.py File:
 
@@ -221,15 +220,15 @@ Within our module, we utilize a config.py file to manage various settings and pa
 
 **1**. [path]:
 
-This section deals with defining paths related to the litesoph's operation. Specifically, it contains keys such as lsproject and lsroot. These keys represent important directories or locations within the project structure. For instance, lsproject might denote the path to a specific project associated with the litesoph, while lsroot indicates the installation path of the litesoph itself.
+This section deals with defining paths related to litesoph's operation. Specifically, it contains keys such as lsproject and lsroot. These keys represent important directories or locations within the project structure. For instance, lsproject might denote the path to a specific project associated with the litesoph, while lsroot indicates the installation path of litesoph itself.
 
 **2**. [visualization_tools]:
 
-In this section, we specify paths to visualization tools essential for the litesoph's functionality. Keys like vmd and vesta represent paths to tools such as VMD (Visual Molecular Dynamics) and VESTA, respectively. These tools are crucial for visualizing molecular structures and conducting analyses, making their paths vital for seamless integration with  litesoph.
+In this section, we specify paths to visualization tools essential for litesoph's functionality. Keys like vmd and vesta represent paths to tools such as VMD (Visual Molecular Dynamics) and VESTA, respectively. These tools are crucial for visualizing molecular structures and conducting analyses, making their paths vital for seamless integration with litesoph.
 
 **3**. [engine]:
 
-The [engine] section focuses on defining paths related to computational engines utilized by Litesoph. Keys like gpaw, nwchem, and octopus represent paths to binaries or executables of computational engines like GPAW, NWChem, and Octopus, respectively. These engines play a pivotal role in performing computations and simulations within litesoph.
+The [engine] section focuses on defining paths related to computational engines utilized by litesoph. Keys like gpaw, nwchem, and octopus represent paths to binaries or executables of computational engines like GPAW, NWChem, and Octopus, respectively. These engines play a pivotal role in performing computations and simulations within litesoph.
 
 **4**. [programs]:
 

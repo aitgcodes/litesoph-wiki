@@ -37,7 +37,7 @@ Create a Workflow
 =================
 .. image Workflow manager page
 
-Available two options are:
+The two available options are:
     * New Workflow
     * Clone from an existing Workflow
 
@@ -87,4 +87,4 @@ LITESOPH calculation is initiated with creating a workflow under current project
         * Workflow Mode: Navigates the users through predefined steps for selected workflow (Link to workflow mode description)
         * Task Mode: Task-wise implementation defined under categories: Pre-processing, Simulation, Post-Processing
 
-**4. Right Panel:** Shows the generated input and update to users, relavant to the current view in text format.
+**4. Right Panel:** Shows the generated input and update to users, relevant to the current view in text format.

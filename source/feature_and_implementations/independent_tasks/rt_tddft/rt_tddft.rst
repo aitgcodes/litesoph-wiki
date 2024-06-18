@@ -25,7 +25,7 @@ the beginning.
 
 **5. Polarisation Direction:** Polarization direction of the applied external electric field.
 
-Click on **Restart Option**, if applicable. Posible options include: increasing number of simulation steps.
+Click on **Restart Option**, if applicable. Possible options include: increasing number of simulation steps.
 
 .. note::
 
