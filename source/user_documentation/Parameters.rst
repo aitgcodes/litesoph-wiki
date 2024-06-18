@@ -12,7 +12,7 @@ Formal charge is a concept used to determine the distribution of electrons in a 
 
 Let's consider the CO2 molecule. In its Lewis structure, each oxygen atom has a formal charge of zero, while the carbon atom has a formal charge of +2. This distribution of formal charges indicates that the carbon atom has lost electrons to the oxygen atoms, making it more positively charged.
 
-Currently the user has the ability to input charge on the given molecule.
+Currently the user has the ability to input the charge on the given molecule.
 
 Multiplicity
 ++++++++++++++++++
@@ -20,8 +20,7 @@ Spin multiplicity is a concept in quantum mechanics that describes the total num
 
 It represents the total number of possible spin states for a system of particles. It's calculated using the formula **2s+1** where s is the total spin quantum number of the system. Currently, spin multiplicity is restricted to either singlet or triplet i.e. 1 or 3.'
 
-.. note ::
-    Please use  Spin polarization as polarized for triplet state calculations. 
+Please use  Spin polarization as polarized for triplet state calculations. 
 ..
 
 Environment
