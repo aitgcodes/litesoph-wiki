@@ -3,7 +3,7 @@ About LITESOPH
 
 The LITESOPH project is aimed at developing a comprehensive toolkit to launch, monitor, manage and analyze 
 large-scale simulations of photo-induced phenomena in a high-performance computing (HPC) environment. 
-It is designed to serve the needs of computational researchers interested in solar energy conversion 
+It is designed to serve the needs of computational researchers interested in solar energy conversion
 applications (photovoltaics, water-splitting catalysts, solar fuels, etc.), optoelectronic materials, 
 photochemistry and photobiology. The toolkit consists of several Python-based layers driven by popular 
 and open-source TDDFT codes like OCTOPUS, GPAW and NWChem.
