@@ -8,7 +8,7 @@ Dipole moment analysis
    :alt: dipole_moment_analysis
 
 **1.** Input the **Parameters for Region Specific Dipole Moment**. Select the region for diplaying the time-varying dipole moment plot. 
-Available options are **Total**, **Region 1(Masked)** and  **Region 1(Complement)**.
+Available options are **Total**, **Region 1 (Masked)** and  **Region 1 (Complement)**.
 
 **2.** Select the cartesian component of the dipole moment to plot.
 
