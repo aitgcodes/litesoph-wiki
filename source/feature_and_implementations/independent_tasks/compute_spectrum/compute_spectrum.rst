@@ -2,13 +2,13 @@
 
 Compute Spectrum
 ====================
-It is used to plot spectrum based on the input parameters.
+It is used to plot the spectrum based on the input parameters.
 
 .. image:: ./compute-spectrum.png
    :width: 800
    :alt: Spectrum
 
-**Calculation of absorption spectrum** 
+**Calculation of absorption spectrum** :
 Performs the Fourier Transformation of dipole-dipole autocorrelation to calculate 
 oscillator strength and plots the absortion Spectrum. Plotting requires the following input:
 
